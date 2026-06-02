@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm \"c:\\\\Project\\\\IDP\\\\frontend\\\\src\\\\app\\\\app.module.ts\" \"c:\\\\Project\\\\IDP\\\\frontend\\\\src\\\\app\\\\app-routing.module.ts\" \"c:\\\\Project\\\\IDP\\\\frontend\\\\src\\\\app\\\\app.component.spec.ts\" \"c:\\\\Project\\\\IDP\\\\frontend\\\\src\\\\app\\\\app.component.html\" \"c:\\\\Project\\\\IDP\\\\frontend\\\\src\\\\app\\\\app.component.css\")",
+      "Bash(npx tsc *)",
+      "PowerShell(Tree.com /F \"C:\\\\Project\\\\IDP\\\\frontend\" 2>$null)"
+    ],
+    "additionalDirectories": [
+      "c:\\Project\\IDP\\frontend\\src\\app"
+    ]
+  }
+}
