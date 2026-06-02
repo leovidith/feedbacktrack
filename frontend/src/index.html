@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FeedbackTrack</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    // sockjs-client transitively references Node-style `global`. Define it
+    // synchronously before the Angular bundle loads so SockJS module init
+    // doesn't blow up with "global is not defined".
+    window.global = window;
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
